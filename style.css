@@ -105,8 +105,40 @@
     font-weight: bold;
 }
 
+/* Page Climate Change */
+.body-climate{
+    font-size: 16px;
+    background-color:  rgb(137, 245, 171);
+}
+
+.body-climate>h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+.isi-climate{
+    border: 5px solid rgb(137, 245, 171);
+    background-color: white;
+    /* border-radius: 25px; */
+    margin: 0 15% 0 15%;
+}
+.isi-climate>p{
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+.isi-climate-img{
+    float: right;
+    clear: right;
+    margin: 0.5em 0.5em 2em 2em;
+    text-align: justify;
+    width: 320px;
+}
+.isi-climate-img img{
+    width: 320px;
+    height: auto; /* sus */
+}
 /* Yang Media2 gitu */
-@media (max-width: 500px){
+@media (max-width: 800px){
     /* ^ klo lebh kecil dari 500px trigger sesuatu yang rubah */
     .navbar>ul{
         display: block;
@@ -122,5 +154,13 @@
 
     .sitemap>ul>li>ul{
         position: relative;
+    }
+    .isi-climate{
+        margin: 0 0 0 0;
+    }
+    .isi-climate-img{
+        float: none;
+        margin: 0 0 0 0;
+        max-width: 100%;
     }
 }
