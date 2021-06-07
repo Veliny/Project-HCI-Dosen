@@ -174,9 +174,9 @@
     width: 320px;
     margin-right: 10px;
 }
+
 /* Yang Media2 gitu */
 @media (max-width: 800px){
-    /* ^ klo lebh kecil dari 500px trigger sesuatu yang rubah */
     .navbar>ul{
         display: block;
     }
@@ -192,21 +192,26 @@
     .sitemap>ul>li>ul{
         position: relative;
     }
+
     .isi-climate{
         margin: 0 0 0 0;
     }
+
     .isi-climate-img{
         float: none;
         margin: 0 0 0 0;
         max-width: 100%;
     }
+
     .isi-about-img{
         float: none;
         display: block;
         margin: 0 0 100px 0;
         max-width: 100%;  
     }
+
     .isi-about-img img{
         max-width: 100%;
     }
 }
+
