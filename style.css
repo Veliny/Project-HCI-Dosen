@@ -139,6 +139,41 @@
     width: 320px;
     height: auto; /* sus */
 }
+/* About Us */
+.body-about{
+    font-size: 16px;
+    background-color:  rgb(137, 245, 171);
+    padding: 10px 10px 5% 10px;   
+}
+
+.body-about>h1{
+    text-align: center;
+    font-size: 2em;
+}
+.isi-about{
+    border: 5px solid rgb(137, 245, 171);
+    background-color: white;
+    /* border-radius: 25px; */
+    margin: 0 15% 0 15%;
+    padding: 10px 10px 10px 10px;
+    display: block;
+}
+.isi-about p{
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+.isi-about>p{
+    font-size: 2.2em;
+    line-height: 1.2em;  
+}
+.isi-about-img{
+    display: flex;
+    margin-bottom: 20px;
+}
+.isi-about-img img{
+    width: 320px;
+    margin-right: 10px;
+}
 /* Yang Media2 gitu */
 @media (max-width: 800px){
     /* ^ klo lebh kecil dari 500px trigger sesuatu yang rubah */
@@ -163,6 +198,15 @@
     .isi-climate-img{
         float: none;
         margin: 0 0 0 0;
+        max-width: 100%;
+    }
+    .isi-about-img{
+        float: none;
+        display: block;
+        margin: 0 0 100px 0;
+        max-width: 100%;  
+    }
+    .isi-about-img img{
         max-width: 100%;
     }
 }
