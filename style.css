@@ -139,6 +139,61 @@
     width: 320px;
     height: auto; /* sus */
 }
+
+/* News */
+
+.body-news{
+        font-size: 16px;
+        background-color:  rgb(137, 245, 171);
+        display: flex;
+        flex-direction: column;
+    }
+
+
+.full-berita{
+    margin: 2% 40% 2% 2%;
+    display: flex;
+    background-color: darkcyan;
+}
+
+.berita{
+    width: 320px;
+    height: auto;
+    display: block;
+    float: none;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+
+.berita img{
+    width: 320px;
+}
+
+.content-berita{
+    font-size: 1em;
+    padding-left: 1em;
+}
+
+.content-berita b{
+    font-size: 1.2em;
+}
+
+.content-berita h4{
+    color: burlywood;
+    margin-top: 3px;
+}
+
+.content-berita a{
+    color: white;
+    text-decoration: none;
+    border-style: groove;
+    border-color: black;
+    background: black;
+    float: right;
+}
+
+
 /* About Us */
 .body-about{
     font-size: 16px;
