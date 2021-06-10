@@ -143,26 +143,29 @@
 /* News */
 
 .body-news{
-        font-size: 16px;
+        font-size: 1em;
         background-color:  rgb(137, 245, 171);
-        display: flex;
-        flex-direction: column;
     }
 
 
 .full-berita{
-    margin: 2% 40% 2% 2%;
-    display: flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
     background-color: darkcyan;
+    display: block;
 }
 
 .berita{
     width: 320px;
-    height: auto;
-    display: block;
     float: none;
-    margin-right: 5px;
-    font-size: 14px;
+    font-size: 1em;
+}
+
+.berita a{
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -173,6 +176,7 @@
 .content-berita{
     font-size: 1em;
     padding-left: 1em;
+    padding-bottom: 1em;
 }
 
 .content-berita b{
@@ -190,7 +194,6 @@
     border-style: groove;
     border-color: black;
     background: black;
-    float: right;
 }
 
 
