@@ -106,6 +106,31 @@
 }
 
 /* Page Climate Change */
+.body-div{
+    font-size: 16px;
+    background-color:  rgb(137, 245, 171);
+    padding: 10px 10px 5% 10px;   
+}
+
+.body-div>h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+
+
+.body-div_w{
+    font-size: 16px;
+    background-color:  #fff;
+    padding: 10px 10px 5% 10px;   
+}
+
+.body-div_w>h1{
+    text-align: center;
+    font-size: 2em;
+}
+
+
 .body-climate{
     font-size: 16px;
     background-color:  rgb(137, 245, 171);
@@ -117,6 +142,7 @@
     font-size: 2em;
 }
 
+
 .isi-climate{
     border: 5px solid rgb(137, 245, 171);
     background-color: white;
@@ -124,6 +150,102 @@
     margin: 0 15% 0 15%;
     padding: 10px 10px 10px 10px;
 }
+
+
+.isi-div{
+    border: 5px solid rgb(137, 245, 171);
+    /*background-color: white;*/
+    /* border-radius: 25px; */
+    margin: 0 15% 0 15%;
+    padding: 10px 10px 10px 10px;
+}
+
+.isi-div>p{
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+.isi-div-img{
+    float: right;
+    clear: right;
+    margin: 0.5em 0.5em 2em 2em;
+    text-align: justify;
+    width: 320px;
+}
+.isi-div-img img{
+    width: 320px;
+    height: auto; /* sus */
+}
+
+.teks{
+        font-size: 1em;
+    line-height: 1.2em;
+}
+
+.tn{
+    vertical-align: top
+}
+
+.tb-c{
+    text-align: center;
+}
+
+.par-h{
+        height: 50px;
+    vertical-align: top;
+}
+
+.par-t{
+    padding-left: 8%;
+    padding-right: 7%;
+    vertical-align: top;
+    text-align: justify;
+}
+.isi-div_w{
+    border: 5px solid rgb(137, 245, 171);
+    background-color: white;
+    /* border-radius: 25px; */
+    margin: 0 15% 0 15%;
+    padding: 10px 10px 10px 10px;
+}
+
+.isi-div_wh{
+    background-color: white;
+    /* border-radius: 25px; */
+    margin: 0 15% 0 15%;
+    padding: 10px 10px 10px 10px;
+}
+
+.parag{
+    text-align: justify; text-indent: 0.5in;
+     font-size: 1em;
+}
+
+.m-20{
+    margin-left: 20px;
+}
+.isi-div_w>p{
+    font-size: 1em;
+    line-height: 1.2em;
+}
+.isi-div_w-img{
+    float: right;
+    clear: right;
+    margin: 0.5em 0.5em 2em 2em;
+    text-align: justify;
+    width: 320px;
+}
+.isi-div_w-img img{
+    width: 320px;
+    height: auto; /* sus */
+}
+
+.no_sty{
+    text-decoration:none;
+    color:#000;
+}
+
+
+
 .isi-climate>p{
     font-size: 1.5em;
     line-height: 1.2em;
@@ -143,29 +265,36 @@
 /* News */
 
 .body-news{
-        font-size: 1em;
+        font-size: 16px;
         background-color:  rgb(137, 245, 171);
+        display: flex;
+        flex-direction: column;
     }
 
+.actived {
+        background-color: blueviolet;
+    }
 
 .full-berita{
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin: 2% 40% 2% 2%;
+    display: flex;
     background-color: darkcyan;
-    display: block;
+}
+
+.full-berita_row{
+    /*margin: 2% 40% 2% 2%;*/
+    display: flex;
+    background-color: darkcyan;
+        padding: 20px;
 }
 
 .berita{
     width: 320px;
+    height: auto;
+    display: block;
     float: none;
-    font-size: 1em;
-}
-
-.berita a{
-    text-decoration: none;
-    color: black;
+    margin-right: 5px;
+    font-size: 14px;
 }
 
 
@@ -176,7 +305,6 @@
 .content-berita{
     font-size: 1em;
     padding-left: 1em;
-    padding-bottom: 1em;
 }
 
 .content-berita b{
@@ -194,6 +322,7 @@
     border-style: groove;
     border-color: black;
     background: black;
+    float: right;
 }
 
 
